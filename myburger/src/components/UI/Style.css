@@ -1,0 +1,91 @@
+
+.Nav{
+    /* 设置宽度高度背景颜色 */
+    height: 50px;
+    width:100%;
+    background:chocolate;
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+}
+.Nav ul{
+    /* 清除ul标签的默认样式 */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;            
+    padding: 0;
+    overflow: hidden;
+
+}
+.Nav li {    
+    float: right; /* 使li内容横向浮动，即横向排列  */
+    margin-right:50px;  /* 两个li之间的距离*/
+}
+
+.Nav li button{
+   /* 设置链接内容显示的格式*/
+   display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+   color:white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none; /* 去除下划线 */
+   background-color: chocolate;
+   border: none;
+   font-size: large;
+   cursor: pointer;
+}
+
+.Nav li button:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: rgb(187, 54, 54);
+}
+
+.Nav li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* 去除下划线 */
+}
+.Nav li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: rgb(187, 54, 54);
+}
+
+
+.MenuBtn{
+    margin: 10px;
+    background-color:#d43200;
+    padding: 10px;
+    border:1px solid #fc501c;
+    box-shadow: inherit;
+    color:white;
+    cursor: pointer;
+    width: 65px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.td{
+    margin:10px;
+    text-align: left;
+    width: 65px;
+    height: 40px;
+}
+
+.Table{
+    border:1;
+    margin:auto;
+}
+
+.CheckBtn{
+    margin: 100px;
+    background-image: yellow;
+    padding: 10px;
+    border:1px solid #d43200;
+    color:lightgreen;
+    cursor: pointer;
+    width: 110spx;
+    height: 40px;
+    border-radius: 20px;
+} 

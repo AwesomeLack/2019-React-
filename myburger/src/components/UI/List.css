@@ -1,0 +1,15 @@
+.ls{
+    float: left;
+    width: 1000px;
+    margin:20px 0px 0px 100px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+}
+.ls p{
+    float: left;
+    margin:20px 20px 0px 20px ;
+}
+.ls h3{
+    float: left;
+}

@@ -1,0 +1,83 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #f89262;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.P{
+  height: 600px;
+  width: 50%;
+  margin:auto;
+}
+.Burger{
+  height: 600px;
+}
+.OrderBurger{
+  height: 600px;
+  width: 50%;
+  margin:auto;
+}
+
+.H1{
+  margin:60px 300px 0px 310px;
+  text-align: center;
+}
+
+.Orders{
+  width:600px;
+  margin:auto;
+  height:600px;
+}
+
+.buyNow button:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.buyNow button.Red{
+  background-color: red;
+}
+
+.buyNow button.Red:hover{
+  background-color: salmon;
+  color:black;
+}
+
+.Buttons{
+  margin: 0px 0px 0px ;
+  border-style: none
+}
+
+.ButtonCancel{
+  margin: 20px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color:rgb(241, 46, 12);
+  border-style: none;
+  outline:none;
+  cursor:pointer
+}
+.ButtonConfirm{
+  margin: 20px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: rgb(72, 238, 50);
+  border-style: none;
+  outline:none;
+  cursor:pointer
+}
